@@ -26,7 +26,7 @@ public class Vector2D {
 }
 
 /* public class Vector2D {
-	public Integer x, y;  // ⚠️ Dùng Integer là không cần thiết (primitive int sẽ tốt hơn)
+	public Integer x, y;  // ⚠ Dùng Integer là không cần thiết (primitive int sẽ tốt hơn)
 	
 	public Vector2D(Integer x, Integer y) {
 		this.x = x;
@@ -39,10 +39,10 @@ public class Vector2D {
 	}
 
 	public int dotProduct(Vector2D v) {
-		return (x * v.x) + (y * v.x); // ⚠️ Sai: y nhân với v.x (phải là y * v.y)
+		return (x * v.x) + (y * v.x); //  Sai: y nhân với v.x (phải là y * v.y)
 	}
 
 	public boolean isOrthogonalTo(Vector2D v) {
-		return dotProduct(v) == -1; // ⚠️ Sai: trực giao khi dotProduct = 0
+		return dotProduct(v) == -1; //  Sai: trực giao khi dotProduct = 0
 	}
 } */
