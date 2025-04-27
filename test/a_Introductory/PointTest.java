@@ -22,7 +22,7 @@ public class PointTest {
 		assertEquals(4, (int) res1.x);
 		assertEquals(-21, (int) res1.y);
 		assertEquals(-3, (int) res2.x);
-		assertEquals(12, (int) res2.y);  // ✅ sửa chỗ này từ x -> y
+		assertEquals(12, (int) res2.y);  //  sửa chỗ này từ x -> y
 	}
 
 	@Test
